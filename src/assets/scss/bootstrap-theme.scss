@@ -1,0 +1,43 @@
+body {
+
+  // text classes
+  .text-primary {
+    color: $primary !important;
+  }
+
+  .text-light {
+    color: $text-light !important
+  }
+
+  .text-dark {
+    color: $text-dark !important;
+  }
+
+  //   card classes
+  .card {
+    background-color: $bg-light !important;
+    border-radius: 0 !important;
+    border: 1px solid $border !important;
+  }
+
+  //   button classes
+  .btn {
+    border-radius: 0 !important;
+  }
+
+  .btn-primary {
+    background-color: $primary !important;
+    border-color: $primary !important;
+  }
+
+  //   form control classes
+  .form-control {
+    border-radius: 0 !important;
+    border: 1px solid $border !important;
+    background-color: $white !important;
+  }
+
+  ::placeholder {
+    color: $text-light !important;
+  }
+}
