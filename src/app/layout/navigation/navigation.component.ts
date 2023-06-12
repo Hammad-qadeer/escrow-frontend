@@ -38,31 +38,31 @@ export class NavigationComponent {
   menu: Menu[] = [
     {
       title: 'Dashboard',
-      icon: '',
+      icon: 'icon-home',
       link: 'dashboard',
       color: '',
     },
     {
       title: 'Admin Management',
-      icon: '',
+      icon: 'icon-admin',
       link: 'admin',
       color: '',
     },
     {
       title: 'Transaction History',
-      icon: '',
+      icon: 'icon-transaction',
       link: 'transaction',
       color: '',
     },
     {
       title: 'Client Mangement',
-      icon: '',
+      icon: 'icon-client',
       link: 'client',
       color: '',
     },
     {
       title: 'Api',
-      icon: '',
+      icon: 'icon-api',
       link: 'api',
       color: '',
     },

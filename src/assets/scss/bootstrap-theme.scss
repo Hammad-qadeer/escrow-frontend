@@ -13,11 +13,34 @@ body {
     color: $text-dark !important;
   }
 
+  .text-success {
+    color: $success !important;
+  }
+
+  .text-secondary {
+    color: $secondary !important;
+  }
+
+  //   background classess
+  .bg-secondary {
+    background-color: $secondary !important;
+  }
+
+  .bg-light {
+    background-color: $bg-light !important;
+  }
+
   //   card classes
   .card {
     background-color: $bg-light !important;
     border-radius: 0 !important;
     border: 1px solid $border !important;
+  }
+
+  .card-title {
+    font-size: 16px !important;
+    font-weight: bold !important;
+    color: $text-dark !important;
   }
 
   //   button classes
@@ -40,4 +63,51 @@ body {
   ::placeholder {
     color: $text-light !important;
   }
+
+  // font classes
+  .fs-10 {
+    font-size: 10px;
+  }
+
+  .fs-12 {
+    font-size: 12px;
+  }
+
+  .fs-14 {
+    font-size: 14px;
+  }
+
+  .fs-16 {
+    font-size: 16px;
+  }
+
+  //   table classes
+  .table {
+    th {
+      background-color: $bg-light;
+
+      p {
+        font-weight: 600;
+        font-size: 14px;
+        color: $text-dark;
+        margin-bottom: 0;
+      }
+    }
+
+    td {
+      background-color: $bg-light;
+
+      p {
+        font-weight: 400;
+        font-size: 14px;
+        color: $text-dark;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .table>:not(caption)>*>* {
+    padding: 1rem 1rem;
+  }
+
 }

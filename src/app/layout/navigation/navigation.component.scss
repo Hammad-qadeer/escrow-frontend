@@ -1,3 +1,5 @@
+@import '../../../assets/scss/variables.scss';
+
 .sidenav-container {
   height: 100%;
 }
@@ -14,4 +16,35 @@
   position: sticky;
   top: 0;
   z-index: 1;
+}
+
+.mat-drawer-side {
+  border-right: none;
+}
+
+.mat-drawer {
+  background-color: $white;
+}
+
+.mat-toolbar.mat-primary {
+  background: $white;
+  color: $text-dark;
+}
+
+.mat-drawer-container {
+  background-color: $base;
+  color: $text-dark;
+}
+
+.mat-mdc-list-base {
+  --mdc-list-list-item-label-text-size: 15px;
+}
+
+.mdc-list-item__primary-text {
+  color: $text-dark;
+}
+
+.mdc-list {
+  margin: 0;
+  padding: 4px 12px;
 }

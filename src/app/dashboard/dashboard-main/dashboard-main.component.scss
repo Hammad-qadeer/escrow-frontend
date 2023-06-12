@@ -1,0 +1,13 @@
+@import '../../../assets/scss/variables.scss';
+
+.points-card {
+  .icon {
+    background-color: $primary;
+    border-radius: 8px;
+    padding: 8px 10px;
+
+    i {
+      font-size: 22px;
+    }
+  }
+}
