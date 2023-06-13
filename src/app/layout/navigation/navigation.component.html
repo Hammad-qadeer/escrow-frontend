@@ -4,9 +4,9 @@
       [mode]="(isHandset$ | async) ? 'over' : 'side'"
       [opened]="(isHandset$ | async) === false">
     <mat-toolbar>
-      <img src="../../../assets/images/logo.png" class="img-fluid">
+      <img src="../../../assets/images/logo.png" class="img-fluid logo">
     </mat-toolbar>
-    <mat-nav-list *ngFor="let item of menu" class="d-flex align-items-center">
+    <mat-nav-list *ngFor="let item of menu" class="d-flex align-items-center sidebar-icons">
       <i class="{{ item.icon }}"></i>
       <a mat-list-item [routerLink]=[item.link]>{{item.title}}</a>
     </mat-nav-list>
