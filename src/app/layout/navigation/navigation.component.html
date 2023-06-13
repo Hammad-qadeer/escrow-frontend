@@ -3,8 +3,11 @@
       [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
       [mode]="(isHandset$ | async) ? 'over' : 'side'"
       [opened]="(isHandset$ | async) === false">
-    <mat-toolbar>NerveFlux</mat-toolbar>
-    <mat-nav-list *ngFor="let item of menu">
+    <mat-toolbar>
+      <img src="../../../assets/images/logo.png" class="img-fluid">
+    </mat-toolbar>
+    <mat-nav-list *ngFor="let item of menu" class="d-flex align-items-center">
+      <i>{{item.icon}}</i>
       <a mat-list-item [routerLink]=[item.link]>{{item.title}}</a>
     </mat-nav-list>
   </mat-sidenav>
@@ -17,7 +20,8 @@
         (click)="drawer.toggle()"
         >
         <!-- *ngIf="isHandset$ | async" -->
-        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+        <!-- <mat-icon aria-label="Side nav toggle icon">menu</mat-icon> -->
+        <mat-icon aria-label="Side nav toggle icon" class="icon-collapse fs-18"></mat-icon>
       </button>
       <!-- <span>escrow</span> -->
     </mat-toolbar>
