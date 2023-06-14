@@ -114,4 +114,8 @@ body {
     padding: 1rem 1rem;
   }
 
+  // dropdown classes
+  .dropdown-toggle::after {
+    display: none;
+  }
 }
