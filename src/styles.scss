@@ -1,15 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 
-// $theme-colors: ("primary": #81A954,
-//   "secondary": #3D42AD,
-// );
 
-// $primary:#81A954 !default;
-// $secondary:#3D42AD !default;
+$theme-colors: ("primary": #81A954,
+  "secondary": #3D42AD,
+  "success": #48BB78,
+  "info": red,
+//   "warning": $warning,
+//   "danger": $danger,
+//   "light": $light,
+//   "dark": $dark
+  );
 
-// $body-bg:red;
-
-// @import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 @import '../src/assets/scss/variables.scss';
 @import '../src/assets/scss/bootstrap-theme.scss';
