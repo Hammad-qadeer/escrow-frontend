@@ -1,0 +1,17 @@
+
+@import '../../../assets/scss/variables.scss';
+
+.profile-img-wrapper{
+    img{
+        width: 140px;
+        height: 140px;
+        object-fit: cover;
+        border-radius: 50%;
+        position: absolute;
+        top: -110px;
+        border: 1px solid $border;
+    }
+}
+.margin-top-user{
+    margin-top: 6rem;
+}

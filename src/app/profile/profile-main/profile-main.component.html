@@ -1,1 +1,99 @@
-<p>profile-main works!</p>
+<section class="signup-screen bg-page">
+  <div class="container">
+    <form>
+      <div class="row">
+        <div class="col-md-10 mx-auto">
+          <div class="card mb-5 p-3 margin-top-user">
+            <div class="card-body">
+                <div class="d-flex justify-content-center mx-auto position-relative profile-img-wrapper text-center">
+                    <img src="../../../assets/images/profile-img.jpg" class="img-fluid">
+                </div>
+              <h2 class="text-primary fw-bold mb-0">Profile</h2>
+              <p class="text-light">Edit and Update your details</p>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">First Name</label>
+                    <input type="text" formControlName="firstName" class="form-control" id="exampleFormControlInput1"
+                      placeholder="name@example.com">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+                    <input type="text" formControlName="lastName" class="form-control" id="exampleFormControlInput1"
+                      placeholder="name@example.com">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                    <input type="email" formControlName="email" class="form-control" id="exampleFormControlInput1"
+                      placeholder="name@example.com">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Password</label>
+                    <input type="password" formControlName="password" class="form-control" id="exampleFormControlInput1"
+                      placeholder="name@example.com">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Confirm Password</label>
+                    <input type="password" formControlName="confirmPassword" class="form-control"
+                      id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+                    <input type="number" formControlName="phoneNo" class="form-control" id="exampleFormControlInput1"
+                      placeholder="name@example.com">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Country</label>
+                    <input type="text" formControlName="country" class="form-control" id="exampleFormControlInput1"
+                      placeholder="name@example.com">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">City</label>
+                    <input type="text" formControlName="city" class="form-control" id="exampleFormControlInput1"
+                      placeholder="name@example.com">
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Address</label>
+                    <textarea class="form-control" formControlName="address" placeholder="Enter your Address here"
+                      id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" formControlName="terms" value="" id="flexCheckChecked"
+                    checked>
+                  <label class="form-check-label text-light" for="flexCheckChecked">
+                    Terms and Conditions
+                  </label>
+                </div>
+              </div>
+              <div class="mb-3">
+                <div class="d-flex">
+                    <button type="submit" class="btn btn-outline-primary w-100">CANCEL</button>
+                    <button type="submit" class="btn btn-primary w-100 ms-3">UPDATE</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
