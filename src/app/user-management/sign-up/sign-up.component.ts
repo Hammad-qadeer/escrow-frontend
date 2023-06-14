@@ -21,7 +21,8 @@ export class SignUpComponent {
   constructor(private registrationService: AuthService, private apiService: ApiService) {}
 
   register() {
-    this.apiService.sendRequest(environment.register, 'post', {body: this.registrationForm.value})
+    const { firstName, lastName, email, password, confirmPassword,  phoneNo, country, city, address, terms} = this.registrationForm.value
+    this.apiService.sendRequest(environment.register, 'post', {firstName, lastName, email, password, phoneNo: phoneNo.toString()})
         .subscribe({
           next: (res)=> {
             console.log(res)
