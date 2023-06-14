@@ -24,7 +24,7 @@ export class SignInComponent {
 
   onSubmit() {
     const { username, password, rememberMe } = this.loginForm.value;
-    this.apiService.sendRequest(environment.login, 'post', {email: username, password, rememberMe }).subscribe({
+    this.apiService.sendRequest(environment.login, 'post', {email: username, password, rememberMe, role: 1 }).subscribe({
       next: (res)=> {
         console.log(res)
       },
