@@ -53,15 +53,82 @@ body {
   //   border-color: $primary !important;
   // }
 
+  .btn-primary {
+    color: $white;
+
+    &:hover {
+      color: $white;
+    }
+  }
+
+  // dropdown classes //
+  .btn-check:checked+.btn,
+  :not(.btn-check)+.btn:active,
+  .btn:first-child:active,
+  .btn.active,
+  .btn.show {
+    color: $dark;
+    background-color: $white;
+    border-color: $border;
+  }
+
+  .dropdown-menu {
+    border-radius: 0 !important;
+  }
+
+
   //   form control classes
+  .form-select,
   .form-control {
     border-radius: 0 !important;
     border: 1px solid $border !important;
     background-color: $white !important;
+
+    &:focus {
+      box-shadow: none;
+    }
   }
 
   ::placeholder {
     color: $text-light !important;
+  }
+
+  .input-group {
+    ::placeholder {
+      color: $text-dark !important;
+    }
+  }
+
+  .input-group-text {
+    background-color: $white;
+    border-radius: 0;
+    padding-right: 0;
+
+    +.form-control {
+      border-left: 0 !important;
+    }
+
+    +.form-select {
+      border-left: 0 !important;
+    }
+  }
+
+  // badge classess
+  .badge{
+    padding: 7px 20px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .bg-light-success {
+    background-color: #EDFFEA;
+  }
+
+  .bg-light-warning {
+    background-color: #FFF6E9;
+  }
+
+  .bg-light-danger {
+    background-color: #FFEAEA;
   }
 
   // font classes
@@ -95,7 +162,7 @@ body {
       background-color: $bg-light;
 
       p {
-        font-weight: 600;
+        font-weight: 500;
         font-size: 14px;
         color: $text-dark;
         margin-bottom: 0;

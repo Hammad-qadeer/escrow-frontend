@@ -7,7 +7,7 @@ $theme-colors: ("primary": #81A954,
   // "info": $info,
   //   "warning": $warning,
   //   "danger": $danger,
-  //   "light": $light,
+  "light": #fff,
   //   "dark": $dark
 );
 
@@ -36,5 +36,21 @@ body {
     border-radius: 16px 16px 0 0;
     margin: 0px 20px 0px 10px;
     height: 100%;
+  }
+
+  .active {
+    .mdc-list-item.mdc-list-item--with-one-line {
+      background-color: #81A9541A;
+      border-radius: 8px;
+      border-left: 2px solid $primary;
+      .mdc-list-item__primary-text {
+        color: $primary;
+
+        i {
+          color: $primary;
+
+        }
+      }
+    }
   }
 }

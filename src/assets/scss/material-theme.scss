@@ -1,1 +1,7 @@
+.mat-mdc-list-base {
+  --mdc-list-list-item-one-line-container-height: 32px;
+}
 
+.mdc-list-item.mdc-list-item--with-one-line {
+  margin: 6px 0;
+}

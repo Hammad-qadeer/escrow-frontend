@@ -1,1 +1,212 @@
-<p>transaction-history-main works!</p>
+<section class="bg-page">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <!-- page header start -->
+        <section class="page-header mb-3">
+          <div class="container">
+            <div class="row mt-3">
+              <div class="col-12">
+                <div class="d-flex align-items-center justify-content-between">
+                  <h2 class="text-dark fw-bold mb-0">Transaction History</h2>
+                  <button class="btn btn-primary d-flex align-items-center">
+                    <i class="icon-add me-2"></i>
+                    ADD</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- page header end -->
+        <!-- search filters start -->
+        <section class="search-flters">
+          <div class="container">
+            <div class="gx-2 justify-content-end row">
+              <div class="col-md-3">
+                <div class="dropdown mb-3">
+                  <button class="align-items-center btn btn-light d-flex dropdown-toggle show w-100" type="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="icon-date me-3"></i>
+                    Date Range
+                    <i class="icon-down-arrow ms-auto"></i>
+                  </button>
+                  <ul class="dropdown-menu w-100">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="dropdown mb-3">
+                  <button class="align-items-center btn btn-light d-flex dropdown-toggle show w-100" type="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="icon-flag me-3"></i>
+                    Status
+                    <i class="icon-down-arrow ms-auto"></i>
+                  </button>
+                  <ul class="dropdown-menu w-100">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon1">
+                    <i class="icon-search"></i>
+                  </span>
+                  <input type="text" class="form-control" placeholder="Search Transaction" aria-label="Username"
+                    aria-describedby="basic-addon1">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- search filters end -->
+        <!-- admin  table start  -->
+        <section class="tables-data">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <table class="table bg-light mb-0">
+                  <thead>
+                    <tr>
+                      <th scope="col">
+                        <p>TRANSACTION ID</p>
+                      </th>
+                      <th scope="col">
+                        <p>STATUS</p>
+                      </th>
+                      <th scope="col">
+                        <p>AMOUNT</p>
+                      </th>
+                      <th scope="col">
+                        <p>RECIEVER</p>
+                      </th>
+                      <th scope="col">
+                        <p>SENDER</p>
+                      </th>
+                      <th scope="col">
+                        <p>DATE</p>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <p>06c1774-7f3d-46ad...90a8</p>
+                      </td>
+                      <td>
+                        <h6><span class="badge text-danger bg-light-danger"><i
+                              class="bi bi-exclamation-circle-fill me-2"></i>Declined</span></h6>
+                      </td>
+                      <td>
+                        <p><span class="fw-bold me-2">56,815</span>BTC</p>
+                      </td>
+                      <td>
+                        <p>Mark Philips</p>
+                      </td>
+                      <td>
+                        <p>Mark Cutting</p>
+                      </td>
+                      <td>
+                        <p>Mar 23, 2023</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>06c1774-7f3d-46ad...90a8</p>
+                      </td>
+                      <td>
+                        <h6><span class="badge text-success bg-light-success"><i
+                              class="bi bi-check-circle-fill me-2"></i>Success</span></h6>
+                      </td>
+                      <td>
+                        <p><span class="fw-bold me-2">56,815</span>BTC</p>
+                      </td>
+                      <td>
+                        <p>Mark Philips</p>
+                      </td>
+                      <td>
+                        <p>Mark Cutting</p>
+                      </td>
+                      <td>
+                        <p>Mar 23, 2023</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>06c1774-7f3d-46ad...90a8</p>
+                      </td>
+                      <td>
+                        <h6><span class="badge text-warning bg-light-warning"><i
+                              class="bi bi-exclamation-circle-fill me-2"></i>Pending</span></h6>
+                      </td>
+                      <td>
+                        <p><span class="fw-bold me-2">56,815</span>BTC</p>
+                      </td>
+                      <td>
+                        <p>Mark Philips</p>
+                      </td>
+                      <td>
+                        <p>Mark Cutting</p>
+                      </td>
+                      <td>
+                        <p>Mar 23, 2023</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>06c1774-7f3d-46ad...90a8</p>
+                      </td>
+                      <td>
+                        <h6><span class="badge text-warning bg-light-warning"><i
+                              class="bi bi-exclamation-circle-fill me-2"></i>Pending</span></h6>
+                      </td>
+                      <td>
+                        <p><span class="fw-bold me-2">56,815</span>BTC</p>
+                      </td>
+                      <td>
+                        <p>Mark Philips</p>
+                      </td>
+                      <td>
+                        <p>Mark Cutting</p>
+                      </td>
+                      <td>
+                        <p>Mar 23, 2023</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>06c1774-7f3d-46ad...90a8</p>
+                      </td>
+                      <td>
+                        <h6><span class="badge text-success bg-light-success"><i
+                              class="bi bi-check-circle-fill me-2"></i>Success</span></h6>
+                      </td>
+                      <td>
+                        <p><span class="fw-bold me-2">56,815</span>BTC</p>
+                      </td>
+                      <td>
+                        <p>Mark Philips</p>
+                      </td>
+                      <td>
+                        <p>Mark Cutting</p>
+                      </td>
+                      <td>
+                        <p>Mar 23, 2023</p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- admin table end  -->
+      </div>
+    </div>
+  </div>
+</section>

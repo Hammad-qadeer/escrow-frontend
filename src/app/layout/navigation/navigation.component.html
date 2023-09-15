@@ -4,7 +4,7 @@
     <mat-toolbar>
       <img src="../../../assets/images/logo.png" class="img-fluid logo">
     </mat-toolbar>
-    <mat-nav-list *ngFor="let item of menu" class="d-flex align-items-center sidebar-icons">
+    <mat-nav-list *ngFor="let item of menu" class="d-flex align-items-center sidebar-icons active">
       <a mat-list-item [routerLink]=[item.link]>
         <i class="{{ item.icon }}"></i>
         {{item.title}}</a>

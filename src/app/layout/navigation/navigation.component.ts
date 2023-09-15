@@ -60,10 +60,16 @@ export class NavigationComponent {
       link: 'client',
       color: '',
     },
+    // {
+    //   title: 'Api',
+    //   icon: 'icon-api',
+    //   link: 'api',
+    //   color: '',
+    // },
     {
-      title: 'Api',
-      icon: 'icon-api',
-      link: 'api',
+      title: 'Logout',
+      icon: 'icon-logout',
+      link: 'signin',
       color: '',
     },
   ];
